@@ -52,5 +52,19 @@ class OrderController extends Controller
         order::destroy($id);
         return response()->json(null, 204);
     }
+
+    public function getOrdersByUser($user_id)
+    {
+        $orders = Order::where('user_id', $user_id)->get();
+
+        return response()->json($orders);
+    }
+
+    public function getOrdersByTicket($ticket_id)
+    {
+        $orders = Order::where('ticket_id', $ticket_id)->get();
+
+        return response()->json($orders);
+    }
 }
 
