@@ -1,6 +1,7 @@
 Travel Agent Integrated System
 
 ## Daftar Isi
+
 - [Anggota Kelompok](#anggota-kelompok)
 - [Arsitektur Sistem](#arsitektur-sistem)
 - [Daftar Layanan](#daftar-layanan)
@@ -14,7 +15,7 @@ Travel Agent Integrated System
 2. I Komang Sadewa Cahya Sumidra -1202220086
 3. Devi Hermina Silaban - 1202223188
 4. Ardhava Fathi Rafi - 1202223142
-5. Moses Eliyada Tambunan - 1202220256	
+5. Moses Eliyada Tambunan - 1202220256
 
 ## Arsitektur Sistem
 
@@ -113,3 +114,19 @@ Travel Agent Integrated System
 ## Link Demo API
 
 Video Demo :[ Video Demo Tugas Pengganti UTS IAE Kelompok 6](https://youtu.be/fOsdQQM5bLw)
+
+## Kesimpulan
+
+**Pentingnya Integrasi Antar Layanan dalam Sistem Travel Agent**
+
+**Sistem Travel Agent** adalah sistem terintegrasi yang melayani proses pemesanan tiket perjalanan secara digital. Sistem ini biasanya dibangun dalam bentuk layanan-layanan terpisah, seperti **User Service** (mengelola data pengguna), **Ticket Service** (mengelola data tiket perjalanan), dan **Order Service** (mengelola transaksi pemesanan). Masing-masing layanan tersebut bekerja secara independen namun harus saling terhubung agar seluruh proses bisa berjalan lancar. Kenapa kita membutuhkan sistem integrasi travel agent ?
+
+ **Pertama**, integrasi memungkinkan layanan untuk saling bertukar data. Misalnya, ketika Order Service ingin membuat pesanan, ia perlu mendapatkan informasi tentang pengguna dan tiket dari layanan lain. Tanpa integrasi, proses ini bisa terhambat.
+
+**Kedua**, integrasi membantu memastikan bahwa data yang digunakan itu valid. Artinya, pemesanan hanya akan diproses jika pengguna dan tiket yang dimaksud benar-benar ada. Ini penting untuk menghindari kesalahan yang bisa merugikan pengguna.
+
+**Ketiga**, dengan adanya integrasi, sistem menjadi lebih mudah untuk dikembangkan dan dikelola. Setiap layanan bisa diperbaiki atau di-upgrade tanpa mengganggu layanan lainnya, sehingga sistem tetap berjalan dengan baik.
+
+**Keempat,** integrasi memberikan pengalaman yang lebih lengkap bagi pengguna. Meskipun pengguna hanya melihat satu aplikasi, di balik layar ada banyak layanan yang bekerja sama untuk memberikan pengalaman yang mulus.
+
+Kesimpulannya, sistem travel agent sangat membutuhkan integrasi antar layanan. Setiap layanan memiliki peran yang berbeda, dan semuanya harus terhubung agar proses seperti pemesanan tiket bisa berjalan dengan baik, cepat, dan aman.
